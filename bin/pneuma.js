@@ -1,6 +1,6 @@
 #!/usr/bin/env nodejs
 
-var args = process.argv.slice(2)
+var args = process.argv.slice(1)
   , fs = require('fs')
   , path = require('path')
   , command = args.shift();
